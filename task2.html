@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <title>My first task</title>
+    
+    </head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("image/mm.png");
+        }
+        h3{
+            color: slateblue;
+            border-bottom: slateblue;
+            
+            
+            text-decoration: underline;
+            text-decoration-color: slateblue;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+        }
+        label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.container {
+  border-radius: 5px;
+  border:2px solid black;
+  background-color: cornflowerblue;
+  padding: 40px;
+  
+}
+
+.item {
+  float: left;
+  width: 15%;
+  margin-top: 3px;
+}
+
+.item-1 {
+  float: left;
+  width: 20%;
+  margin-top: 3px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+  
+
+
+        
+    </style>
+    
+    <body>
+        <h3>STUDENT REGISTRATION FORM</h3><br><br>
+        <div class="container" >
+        <form>
+
+              <div class="row">
+                  <div class="item">
+                <label for="fname">FIRST NAME</label>
+                  </div>
+                  <div class="item-1">
+     <input type="text" id="fname" name="fname" placeholder="Enter first name"
+                 maxlength="30"><br><br>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="item">
+                 <label for="fname">Last NAME</label>
+                 </div>
+                 <div class="item-1">
+     <input type="text" id="lname" name="lname" placeholder="Enter last name" 
+                maxlength="30"><br><br>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="item">
+                <label for="fname">Date of birth</label>
+                </div>
+                <div class="item-1">
+                <input type="date" id="date" name="date"><br><br>
+                 </div>
+                 </div>
+                 <div class="row">
+                    <div class="item">
+                <label for="fname">EMAIL ID</label>
+                </div>
+                <div class="item-1">
+     <input type="text" id="email" name="email" placeholder="Enter your email id">
+                
+                </div>
+                </div><br><br>
+
+                <div class="row">
+                    <div class="item">
+
+                <label for="fname">MOBILE NUMBER</label>
+                </div>
+                <div class="item-1">
+                <input type="text" id="number" name="email" placeholder="Enter your phone number"
+                maxlength="10" >
+                           
+                           </div>
+                           </div><br><br>
+                           <div class="row">
+                            <div class="item">
+
+                           <label for="fname">GENDER</label>
+                           </div>
+                           <div class="item-1">
+                           <input type="radio" value="Male">Male       <input type="radio" value="Male">Female<br>
+                           </div>
+                           </div>
+                           <div class="row">
+                            <div class="item">
+                           <label for="fname">ADDRESS</label>
+                            </div>
+                            <div class="item-1">
+                           <textarea name="text" style="width:200px; height:100px;"></textarea><br><br>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="item">  
+                           <label for="fname">CITY</label>
+                           </div>
+                           <div class="item-1">
+                           <input type="text" id="city" name="city" placeholder="Enter your city name" 
+                                      maxlength="30">(max 30 characta-z and A-Z)<br><br>
+                                      </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="item">  
+                                      <label for="fname">PIN CODE</label>
+                                      </div>
+                                      <div class="item-1">
+                           <input type="text" id="city" name="city" placeholder="Enter your city name" 
+                                      maxlength="30">(6 digit number)<br><br>
+                                      </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="item"> 
+                                      <label for="fname">COUNTRY</label>
+                                      </div>
+                                      <div class="item-1">   
+           <input type="text" id="country" name="country" placeholder="Enter country" 
+                                      ><br><br>
+                                      </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="item"> 
+                          <label for="fname">HOBBIES</label>
+                          </div>
+                          <div class="item-1"> 
+                          Drawing<input type="checkbox" value="hobbies"> 
+                          Singing<input type="checkbox" value="hobbies">
+                          Dancing <input type="checkbox" value="hobbies">
+                          Sketching <input type="checkbox" value="hobbies">
+                           <br><br>
+                           
+        Other <input type="checkbox" ><input type="text"><br><br>
+        </div>
+        </div>
+        <div class="row">
+            <div class="item"> 
+        <label for="fname">QUALIFICATION</label><br><br>
+        </div>
+
+        <table border="1px">
+            <thead >
+            
+                <tr>
+                    <th>SL.No.</th>
+                    <th>EXAMINATION</th>
+                    <th>BOARD</th>
+                    <th>PERCENTAGE</th>
+                    <th>YEAR OF PASSINGF</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            
+        </table><br><br>
+        </div>
+        <div class="row">
+            <div class="item"> 
+        <label for="fname">COURSES<br> APPLIED FOR</label>
+        </div>
+        <div class="item-1"> 
+        BCA<input type ="radio">
+        B.Com<input type ="radio">
+        B.Sc<input type ="radio">
+        B.A<input type ="radio">
+        </div>
+        </div>
+        <center><button>Submit</button> <button>Reset</button></center>             
+                
+           
+
+        </form>
+        </div>
+    </body>
+</html>
